@@ -8,9 +8,17 @@ HTML
 CSS
 JavaScript (JSX)
 React: A JavaScript library for building user interfaces.
+
+
 React Router DOM: For managing routes in React.
+
+
 Axios: For making network requests.
+
+
 React Toastify: For creating toast notifications easily.
+
+
 Backend
 Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine.
 Express: A minimal and flexible Node.js web application framework.
