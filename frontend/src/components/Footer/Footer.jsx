@@ -6,8 +6,9 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-           <img src={assets.logo}></img>
-           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugiat enim nisi veritatis ex, qui, error est, non consequuntur et odit vero sequi? Necessitatibus soluta a, dolor quia rem quo!</p>
+          
+           <h1 class="logobitecart">BiteCart</h1>
+           <p>BiteCart is a fast, reliable food delivery app that connects you to your favorite restaurants and cuisines with just a few taps. From local eateries to global chains, we deliver fresh meals right to your door, ensuring a seamless and delightful dining experience. Your cravings, delivered!</p>
            <div className='footer-social-icons'>
             <img src={assets.facebook_icon}></img>
             <img src={assets.twitter_icon}></img>
@@ -27,13 +28,13 @@ const Footer = () => {
            <h2>Get In Touch</h2>
            <ul>
             <li>+91-99999-99999</li>
-            <li>vinitsikri80@gmail.com</li>
+            <li>purvamadaan418@gmail.com</li>
            </ul>
         </div>
       </div>
       <hr/>
       <p className='footer-copyright'>
-       Copyright 2024 © Vinit Sikri - All Rights Reserved
+       Copyright 2024 © Purva Madaan- All Rights Reserved
       </p>
     </div>
   )

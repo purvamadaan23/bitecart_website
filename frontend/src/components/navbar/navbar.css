@@ -7,6 +7,11 @@
 .navbar.logo{
   width: 150px;
 }
+.logobitecart {
+  font-size: 64px;         
+  font-weight: bold;       
+  color: #F25A38;           
+}
 .navbar-menu{
   display: flex;
   list-style: none;
