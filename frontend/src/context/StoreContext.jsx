@@ -30,6 +30,7 @@ const StoreContextProvider =(props)=>{
       }
     }loadData();
   },[])
+  //Executes when the component first mounts
 
   const addToCart= async (itemId)=>{
     if(!cartItems[itemId]){
@@ -65,7 +66,7 @@ const StoreContextProvider =(props)=>{
     return totalAmount;
   }
 
-
+  //The object that holds all the state and functions (food_list, cartItems, addToCart, removeFromCart, etc.) to be shared across components using the StoreContext.
   const contextValue = {
       food_list,
       cartItems,
@@ -85,3 +86,6 @@ const StoreContextProvider =(props)=>{
 }
 
 export default StoreContextProvider
+
+
+//This file defines a StoreContextProvider that manages the state of a food ordering app, including food items, cart data, and total amount calculation. It fetches data from a backend API, updates the cart locally and on the server, and shares this state across components using React's Context API.

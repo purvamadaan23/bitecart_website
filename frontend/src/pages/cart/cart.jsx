@@ -72,3 +72,6 @@ const Cart = () => {
 }
 
 export default Cart
+
+
+//Purpose: This file renders the cart page where users can see the items they've added, remove items, view the total price (with a delivery fee), and proceed to checkout. It also has an input for promo codes.

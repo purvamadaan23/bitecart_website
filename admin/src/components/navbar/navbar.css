@@ -4,7 +4,11 @@
   align-items: center;
   padding: 8px 4%;
 }
-
+.logobitecart {
+  font-size: 64px;         
+  font-weight: bold;       
+  color: #F25A38;           
+}
 .navbar .logo{
   width: max(10%,80px);
 }
