@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend-service
+    env: node
+    build:
+      commands:
+        - npm install
+        - npm rebuild bcrypt --build-from-source
+    start: npm start
